@@ -1,3 +1,5 @@
 ggir-default/data/
 ggir-default/output/
 .Rproj.user
+.Rhistory
+dockerGGIR.Rproj
