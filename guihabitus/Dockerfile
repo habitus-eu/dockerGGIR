@@ -20,11 +20,10 @@ RUN R -e 'install.packages(c(\
 RUN R -e 'remotes::install_github("habitus-eu/HabitusGUI")' 
 
 RUN mkdir -p /code
-
-# COPY /code/runGUI.R /code/runGUI.R
+RUN mkdir -p /data
+RUN mkdir -p /output
 
 # run app by running the runGUI script
-# CMD Rscript /code/runGUI.R
 COPY /code/app.R /srv/shiny-server/
 
 # run app
