@@ -1,3 +1,7 @@
+# THIS REPOSITORY HAS BEEN ARCHIVED.
+# WE HAVE NO PLANS TO MAINTAIN THIS REPOSITORY AS WE NO LONGER WORK WITH DOCKER.
+
+
 # dockerGGIR
 In this repository I keep the code for building docker containers related to GGIR
 
